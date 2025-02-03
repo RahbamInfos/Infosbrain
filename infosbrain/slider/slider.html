@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="slider.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body> 
+    <header>
+      <div class="container">
+       <figure class="logo">
+        <img src="Infosbrain-removebg-preview.png" alt="">
+       </figure>
+       <nav class="navlist">
+        <ul>
+          <li>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Industries</a>
+          <a href="#">Contact Us</a>
+        </li>
+        </ul>
+       </nav>
+      </div>
+       
+       <!--bars and cross krni hai abhi-->
+       
+      </header>
+
+
+<main>
+    <section class="slider">
+      <div class="list">
+        <div class="items active">
+          <div class="image" style="--url: url('1.jpg')"></div>
+          <div class="content">
+            <h2>Code. Connect. Conquer</h2>
+            <p>Empowering businesses with innovative SEO, SMM, web development, and digital marketing solutions for lasting success.</p>
+            <p>Empowering Your Digital Presence!</p>
+          </div>
+        </div>   
+        
+        <div class="items">
+          <div class="image" style="--url: url('2.jpg')"></div>
+          <div class="content">
+            <h2>Refine. Analyze. Succeed.</h2>
+            <p>Tailored solutions to meet your specific needs and business goals.</p>
+            <p>Working together to achieve success!</p>
+          </div>
+        </div>  
+
+        <div class="items">
+          <div class="image" style="--url: url('3.jpg')"></div>
+          <div class="content">
+            <h2>Think. Build. Evolve.</h2>
+            <p>Always pushing the boundaries of what's possible with technology.</p>
+            <p>Transform data into actionable insights to guide business strategies!</p>
+          </div>
+        </div>  
+        <div class="arrows">
+          <button id="prev">
+            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12l4-4m-4 4 4 4"/>
+            </svg>            
+          </button>
+          <button id="next">
+            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+            </svg>            
+          </button>
+        </div>
+    </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
